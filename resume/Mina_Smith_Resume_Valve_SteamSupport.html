@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resume - Mina Smith-Morrison</title>
+  <style>
+    :root {
+      --accent: #3a6f9f;
+      --orange: #D4661A;
+      --dark: #1a2333;
+      --text: #1a1a1a;
+      --muted: #555;
+      --light: #f4f6f8;
+    }
+    body {
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      font-size: 10pt;
+      line-height: 1.5;
+      color: var(--text);
+      background: #fff;
+      margin: 0;
+    }
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+    .header {
+      background: var(--dark);
+      color: #fff;
+      padding: 0.5in 0.75in 0.4in;
+    }
+    .header h1 {
+      font-size: 22pt;
+      margin: 0 0 0.25em 0;
+      font-weight: bold;
+      letter-spacing: 0.02em;
+      color: #fff;
+    }
+    .header .contact {
+      font-size: 9pt;
+      color: #b0bec5;
+      margin: 0;
+      letter-spacing: 0.01em;
+    }
+    .body-content {
+      padding: 0.4in 0.75in 0.5in;
+    }
+    .summary {
+      margin-bottom: 1.5em;
+      font-size: 10pt;
+      line-height: 1.7;
+      color: #333;
+      border-left: 3px solid var(--dark);
+      padding-left: 0.8em;
+    }
+    h2 {
+      font-size: 9pt;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      border-bottom: 2px solid var(--orange);
+      padding-bottom: 0.2em;
+      margin: 1.4em 0 0.6em 0;
+      color: var(--orange);
+    }
+    .job {
+      margin-bottom: 1em;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.15em;
+    }
+    .job-title {
+      font-weight: bold;
+      font-size: 10pt;
+      color: var(--dark);
+    }
+    .job-dates {
+      font-size: 9pt;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+    .job-company {
+      font-size: 9.5pt;
+      color: var(--dark);
+      margin-bottom: 0.3em;
+    }
+    .skills-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.4em 1.5em;
+      margin-bottom: 0.5em;
+    }
+    .skill-row {
+      font-size: 9.5pt;
+      line-height: 1.5;
+    }
+    .earlier-exp {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.1em 1em;
+      margin-bottom: 0.3em;
+    }
+    .earlier-role {
+      font-size: 9pt;
+      color: #333;
+    }
+    .earlier-dates {
+      font-size: 9pt;
+      color: #555;
+      white-space: nowrap;
+      text-align: right;
+    }
+    .projects-section {
+      font-size: 9.5pt;
+      line-height: 1.6;
+    }
+    .projects-section span {
+      font-weight: bold;
+    }
+    .education .job-title {
+      color: var(--dark);
+    }
+    .education .job-company {
+      color: var(--muted);
+    }
+    .skill-label {
+      font-weight: bold;
+    }
+    ul {
+      margin: 0.3em 0 0 0;
+      padding-left: 1.2em;
+    }
+    li {
+      margin-bottom: 0.4em;
+      font-size: 9.5pt;
+      line-height: 1.5;
+    }
+    @page { margin: 0.3in 0.45in; }
+    @media print {
+      body { margin: 0; font-size: 9pt; line-height: 1.4; }
+      .page { padding: 0; max-width: none; }
+      .header { padding: 0.25in 0.55in; }
+      .header h1 { font-size: 19pt; margin: 0 0 0.2em 0; }
+      .header .contact { font-size: 9pt; margin: 0; }
+      .body-content { padding: 0.25in 0.55in 0.3in; }
+      .summary { font-size: 9.5pt; line-height: 1.55; margin-bottom: 1em; }
+      h2 { margin: 1em 0 0.45em 0; font-size: 9pt; }
+      .job { margin-bottom: 0.7em; }
+      .job-title { font-size: 10pt; }
+      .job-company { font-size: 9.5pt; margin-bottom: 0.15em; }
+      .job-dates { font-size: 9pt; }
+      .job-header { margin-bottom: 0.1em; }
+      ul { margin-top: 0.2em; padding-left: 1.1em; }
+      li { margin-bottom: 0.25em; line-height: 1.38; font-size: 9pt; }
+      .skill-row { font-size: 9pt; line-height: 1.4; }
+      .skill-label { font-size: 9pt; }
+      .earlier-exp { gap: 0.05em 1em; }
+      .earlier-role { font-size: 9pt; }
+      .earlier-dates { font-size: 9pt; }
+      .education .job { margin-bottom: 0.3em; }
+      .skills-grid { gap: 0.35em 1.5em; }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <div class="header">
+      <h1>Mina Smith-Morrison</h1>
+      <p class="contact">Lynnwood, WA &nbsp;|&nbsp; (425) 623-3262 &nbsp;|&nbsp; minotchka.smith@gmail.com &nbsp;|&nbsp; linkedin.com/in/minosmith</p>
+    </div>
+
+    <div class="body-content">
+    <div class="summary">
+      I've spent 15 years in game development and platform quality focusing on the friction between two audiences: the partners building the ecosystem and the players inhabiting it. My career has been defined by sitting in the space between those two groups, identifying systemic gaps, building the tools to close them, and taking ownership of the user experience before being asked. Whether it was designing KPI-driven features at EA or auditing consumer error-handling at Epic, my goal is to ensure that platform decisions protect both developer trust and player loyalty.
+    </div>
+
+    <h2>Experience</h2>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Quality Assurance Analyst</span>
+        <span class="job-dates">Aug 2025 &ndash; Mar 2026</span>
+      </div>
+      <div class="job-company">Epic Games</div>
+      <ul>
+        <li>Drove improvements to the Epic Games Store alongside Product and Engineering, including pre-loading, checkout flows, and UX audits of error-handling clarity, to close gaps between technical implementation and what actually worked for developers and players.</li>
+        <li>Identified that release readiness was a black box to everyone outside QA, and took it on myself to fix that by building a test management system with assignment tracking, multi-environment workflows, quality gates, and reports designed to give Production and Leadership clear visibility into launch risk.</li>
+        <li>Served as the final quality gate for GraphQL, web, and client deployments, acting as a primary defender of the user experience and personally validating that the Epic Games Launcher remained functional across all global production updates.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Quality Engineer</span>
+        <span class="job-dates">Feb 2022 &ndash; Oct 2024</span>
+      </div>
+      <div class="job-company">Zynga, NaturalMotion</div>
+      <ul>
+        <li>Made the player perspective impossible to ignore on Star Wars: Hunters, driving structured playtests and UI/UX feedback cycles that kept player experience at the center of design decisions from pre-production through launch.</li>
+        <li>Took ownership of cross-platform performance and stability on Star Wars: Hunters before anyone asked me to, established a cross-discipline focus on hardware-specific stability, and managed every issue across iOS, Android, and Nintendo Switch from discovery to fix.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Software Development Engineer in Test</span>
+        <span class="job-dates">Jun 2020 &ndash; Jan 2022</span>
+      </div>
+      <div class="job-company">Microsoft, Turn10 Studios</div>
+      <ul>
+        <li>Brought a player perspective into content milestone reviews on Forza Motorsport, evaluating whether tracks and cars felt right to drive, whether control systems worked as intended, and whether accessibility features held up for all players.</li>
+        <li>Shipped and maintained C# automation scripts for Forza Motorsport (2023), owned CI/CD pipeline configuration changes in Perforce and Azure directly, and integrated automated validation into the studio release process.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Quality Assurance Engineer</span>
+        <span class="job-dates">Jan 2020 &ndash; Mar 2020</span>
+      </div>
+      <div class="job-company">Peek Travel Inc.</div>
+      <ul>
+        <li>Acted as the primary technical point of contact for partner-facing issues on Peek Pro 7, replicating complex failures across diverse POS and reservation configurations and proactively validating new features against existing client setups to protect partner business continuity.</li>
+        <li>As the sole QA in the Seattle office, owned end-to-end test coverage for a major Peek Pro iOS overhaul targeting a 40% reduction in partner operational overhead, bridging engineering goals and real-world partner needs.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Senior Quality Analyst</span>
+        <span class="job-dates">Jan 2015 &ndash; Jan 2020</span>
+      </div>
+      <div class="job-company">Electronic Arts (EA), PopCap Games</div>
+      <ul>
+        <li>Served as a core player advocate in design reviews and UI/UX meetings across PvZ 2, PvZ Heroes, Bejeweled Blitz, and several unreleased titles; at PvZ Camp independently designed a scoring system that, after being moved off the project, was adopted as the foundation for daily retention KPIs and a subsequent PvP mode.</li>
+        <li>Entirely self-directed and outside any assigned scope: identified a verification gap nobody else was addressing and built a Python tool that cut QA verification time by 80% on PvZ 2; also independently took on producer and sound designer roles across multiple internal game jams.</li>
+        <li>Shipped and maintained C# and JavaScript automation across PvZ 2, PvZ Heroes, and Bejeweled Blitz; built UI-driven automated tests using Unity Automation and authored Java/JavaScript API scripts via Postman for core gameplay services.</li>
+      </ul>
+    </div>
+
+    <h2>Earlier Experience</h2>
+    <div class="earlier-exp">
+      <div class="earlier-role"><strong>QA Lead</strong>, Harebrained Schemes, Golem Arcana</div><div class="earlier-dates">Jul 2014 &ndash; Jan 2015</div>
+      <div class="earlier-role"><strong>Mobile Quality Analyst</strong>, Disney Interactive, Playdom</div><div class="earlier-dates">May 2014 &ndash; Jul 2014</div>
+      <div class="earlier-role"><strong>Mobile QA Tester</strong>, Electronic Arts (EA), PopCap Games</div><div class="earlier-dates">Feb 2013 &ndash; May 2014</div>
+      <div class="earlier-role"><strong>Mobile Device Tester</strong>, Microsoft, Windows Phone</div><div class="earlier-dates">Jan &ndash; Feb 2013</div>
+      <div class="earlier-role"><strong>QA Tester</strong>, Glu Mobile, Griptonite Games</div><div class="earlier-dates">Feb &ndash; Nov 2012</div>
+      <div class="earlier-role"><strong>Video Game Tester</strong>, Nintendo</div><div class="earlier-dates">Jul &ndash; Dec 2011</div>
+      <div class="earlier-role"><strong>Hardware and Video Game Tester</strong>, Microsoft, Xbox Games Studio</div><div class="earlier-dates">Oct 2010 &ndash; Jun 2011</div>
+    </div>
+
+
+<h2>Education</h2>
+
+    <div class="education">
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">MicroBachelors Certificate, Computer Science Fundamentals</span>
+        <span class="job-dates">2021</span>
+      </div>
+      <div class="job-company">New York University via edX</div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Applied Computing Coursework</span>
+        <span class="job-dates">2019</span>
+      </div>
+      <div class="job-company">City University of Seattle (Attended)</div>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-title">Network Administration Coursework</span>
+        <span class="job-dates">2015</span>
+      </div>
+      <div class="job-company">South Seattle College (Attended)</div>
+    </div>
+    </div>
+
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-row"><span class="skill-label">Product &amp; Systems Analysis</span><br>Manual, Exploratory, Regression, Performance, API, Security, UAT, Risk-Based, Playwright, Postman, Charles Proxy, Swagger, REST, GraphQL, HAR Analysis</div>
+      <div class="skill-row"><span class="skill-label">Platforms &amp; Ecosystems</span><br>Mobile (iOS/Android), Xbox Series S/X, Xbox One/360, Nintendo Switch/Wii/3DS, Web, Windows, Mac, Epic Games Store, Origin Store</div>
+      <div class="skill-row"><span class="skill-label">Technical Engineering</span><br>Python, C#, JavaScript, TypeScript, Java, React, Node.js, Unreal Engine 4, Unity</div>
+      <div class="skill-row"><span class="skill-label">Operations &amp; Infrastructure</span><br>Jira, QMetry, TestRail, Confluence, GitHub, Perforce, Jenkins, AWS, Azure, Docker, Kubernetes, Splunk, Crashlytics, BugSnag, New Relic, Grafana</div>
+    </div>
+
+    </div>
+  </div>
+</body>
+</html>
