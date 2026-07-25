@@ -17,23 +17,33 @@ work live in the same person.
 
 [GitHub](https://github.com/ZoomZoom123) · [Resume](#) · [Contact](#)
 
-## Case Studies
+## Projects & Contributions
 
-- [PvZ2 Scoring System](case-studies/pvz2/pvz2-scoring-system.md): Designed
+- [PvZ2 Scoring System](projects-and-contributions/pvz2/pvz2-scoring-system.md): Designed
   a scoring system during an internal jam. It shipped as a live mode and moved
   DAU, retention, and transactions.
 
-- [Star Wars: Hunters, Playtesting and Player Advocacy](case-studies/star-wars-hunters/star-wars-hunters-playtesting.md):
+- [Star Wars: Hunters, Playtesting and Player Advocacy](projects-and-contributions/star-wars-hunters/star-wars-hunters-playtesting.md):
   Ran structured playtests and sourced player feedback from Discord
   independently. The UX and performance improvements I pushed for made it into
   the worldwide launch.
 
-- [EGS Offline Flow Investigation](case-studies/egs/offline-flow-investigation.md):
+- [EGS Offline Flow Investigation](projects-and-contributions/egs/offline-flow-investigation.md):
   Built a service priority matrix and phased gap analysis covering 14+
   external services after investigating how the Epic Games Store handled
   outages across the desktop launcher and web store.
 
-- [Standing Up Production Process for a Volunteer Indie Team](case-studies/production-leadership/task-hierarchy-and-tooling.md):
+- [Standing Up Production Process for a Volunteer Indie Team](projects-and-contributions/production-leadership/task-hierarchy-and-tooling.md):
   Designed task hierarchy and workflow conventions for an 11-person indie
   studio in preproduction. The onboarding documentation I wrote is now the
   standard for all new contributors.
+
+- [Forza Motorsport (2023), Track Visual Verification](projects-and-contributions/forza/forza-track-visual-verification.md):
+  Maintained and ran an automated tool that replaced manual, by-hand track
+  verification across weather conditions, and extended it to additional
+  tracks.
+
+- [Peek Pro 7, Client Issue Resolution](projects-and-contributions/peek/peek-pro-case-study.md):
+  Triaged partner-reported issues by severity across varied POS and
+  reservation configurations, and validated new features against real
+  client setups before release.
