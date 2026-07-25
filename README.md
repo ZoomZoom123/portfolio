@@ -15,7 +15,7 @@ work live in the same person.
 **Toolkit:** Playwright (TypeScript), Python, C#, Postman, Jira, TestRail, CI/CD
 **Shipped:** Star Wars: Hunters · Forza Motorsport (2023) · Plants vs. Zombies 2 & Heroes · Epic Games Store · Peek Pro 7
 
-[Resume](https://zoomzoom123.github.io/portfolio/resume/Mina_Smith_Resume_Valve_SteamSupport.html) · [Contact](mailto:minotchka.smith@gmail.com)
+[Resume](https://zoomzoom123.github.io/portfolio/resume/Mina_Smith_Resume.html) · [Contact](mailto:minotchka.smith@gmail.com)
 
 ## Projects & Contributions
 
