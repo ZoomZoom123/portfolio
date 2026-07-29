@@ -1,6 +1,6 @@
 # Standing Up Production Process for a Volunteer Indie Team
 
-I joined a small indie RPG studio (11 people) in preproduction as their
+I joined The Decree, an 11-person indie JRPG in preproduction, as their
 first dedicated production hire. No task structure existed yet, and the
 team was bumping against the limits of their free-tier tooling.
 

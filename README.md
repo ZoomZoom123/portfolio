@@ -7,10 +7,10 @@ Microsoft/Turn 10, Epic Games, and Peek Travel. I care about finding the
 problem underneath the reported bug, and building systems (test plans,
 scoring models, gap analyses) that outlast the person who wrote them.
 
-Lately I've been leaning into production: leading process and tooling for
-an indie RPG team as a volunteer producer. Looking for senior/lead QA, QA
-automation, or associate producer roles where QA instincts and production
-work live in the same person.
+Lately I've been leaning into production: serving as Executive Producer for
+The Decree, an indie JRPG, leading process and tooling for the volunteer
+team. Looking for senior/lead QA, QA automation, or associate producer
+roles where QA instincts and production work live in the same person.
 
 **Toolkit:** Playwright (TypeScript), Python, C#, Postman, Jira, TestRail, CI/CD
 **Shipped:** Star Wars: Hunters · Forza Motorsport (2023) · Plants vs. Zombies 2 & Heroes · Epic Games Store · Peek Pro 7
@@ -34,9 +34,9 @@ work live in the same person.
   outages across the desktop launcher and web store.
 
 - [Standing Up Production Process for a Volunteer Indie Team](projects-and-contributions/production-leadership/task-hierarchy-and-tooling.md):
-  Designed task hierarchy and workflow conventions for an 11-person indie
-  studio in preproduction. The onboarding documentation I wrote is now the
-  standard for all new contributors.
+  Designed task hierarchy and workflow conventions for The Decree, an
+  11-person indie JRPG in preproduction. The onboarding documentation I
+  wrote is now the standard for all new contributors.
 
 - [Forza Motorsport (2023), Track Visual Verification](projects-and-contributions/forza/forza-track-visual-verification.md):
   Maintained and ran an automated tool that replaced manual, by-hand track
