@@ -1,8 +1,9 @@
 # Standing Up Production Process for a Volunteer Indie Team
 
-I joined The Decree, an 11-person indie JRPG in preproduction, as their
+I joined The Decree, then a 5-person indie JRPG in preproduction, as their
 first dedicated production hire. No task structure existed yet, and the
-team was bumping against the limits of their free-tier tooling.
+team was bumping against the limits of their free-tier tooling. The team
+has since grown to 14.
 
 I designed a task hierarchy covering art, design, engineering, and
 narrative. Then evaluated tool options against what the team could actually

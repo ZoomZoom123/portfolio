@@ -35,8 +35,9 @@ roles where QA instincts and production work live in the same person.
 
 - [Standing Up Production Process for a Volunteer Indie Team](projects-and-contributions/production-leadership/task-hierarchy-and-tooling.md):
   Designed task hierarchy and workflow conventions for The Decree, an
-  11-person indie JRPG in preproduction. The onboarding documentation I
-  wrote is now the standard for all new contributors.
+  indie JRPG in preproduction that has grown from 5 to 14 people. The
+  onboarding documentation I wrote is now the standard for all new
+  contributors.
 
 - [Forza Motorsport (2023), Track Visual Verification](projects-and-contributions/forza/forza-track-visual-verification.md):
   Maintained and ran an automated tool that replaced manual, by-hand track
