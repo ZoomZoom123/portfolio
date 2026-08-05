@@ -23,6 +23,19 @@ roles where QA instincts and production work live in the same person.
   a scoring system during an internal jam. It shipped as a live mode and moved
   DAU, retention, and transactions.
 
+- [PvZ2 Staging-to-Production Validation Tool](projects-and-contributions/pvz2/pvz2-staging-validation-tool.md):
+  Taught myself Python to build a diffing tool for staging-to-production
+  content, cutting 20 hours per release cycle with no prior coding background.
+
+- [AI Tool Evaluation and Adoption at Epic](projects-and-contributions/epic/ai-tools-adoption.md):
+  Benchmarked Claude, ChatGPT, Gemini, and Copilot against real QA tasks,
+  standardized the team on Claude Code, and saved 26 hours per cycle on test
+  planning documentation.
+
+- [Test Case Visibility During a Product Revamp](projects-and-contributions/epic/test-case-visibility.md):
+  Moved test cases out of a siloed tool and into the repo so engineers could
+  see QA coverage directly, without new licensing or training.
+
 - [Star Wars: Hunters, Playtesting and Player Advocacy](projects-and-contributions/star-wars-hunters/star-wars-hunters-playtesting.md):
   Ran structured playtests and sourced player feedback from Discord
   independently. The UX and performance improvements I pushed for made it into
