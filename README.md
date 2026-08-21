@@ -19,13 +19,39 @@ roles where QA instincts and production work live in the same person.
 
 ## Projects & Contributions
 
-- [PvZ2 Scoring System](projects-and-contributions/pvz2/pvz2-scoring-system.md): Designed
-  a scoring system during an internal jam. It shipped as a live mode and moved
-  DAU, retention, and transactions.
+### Plants vs. Zombies 2
+
+- [PvZ2 Scoring System](projects-and-contributions/pvz2/pvz2-scoring-system.md):
+  Designed a scoring system during an internal jam. It shipped as a live
+  mode and moved DAU, retention, and transactions.
 
 - [PvZ2 Staging-to-Production Validation Tool](projects-and-contributions/pvz2/pvz2-staging-validation-tool.md):
   Taught myself Python to build a diffing tool for staging-to-production
-  content, cutting 20 hours per release cycle with no prior coding background.
+  content, cutting 20 hours per release cycle with no prior coding
+  background.
+
+- [Adversarial Testing of a Server-Authoritative PvP System](projects-and-contributions/pvz2/postman-bot-driven-adversarial-testing.md):
+  Built Postman-based bot-driven traffic to adversarially test the PvP
+  leaderboard's server-authoritative boundary against real exploitation
+  attempts.
+
+### Plants vs. Zombies 3 (Unreleased)
+
+- [Reusing a Server-Authoritative Testing Architecture Across Titles (PvZ2 to PvZ3)](projects-and-contributions/pvz3/pvz3-leaderboard-postman-reuse.md):
+  Ported a proven adversarial API testing architecture from PvZ2 to PvZ3's
+  new leaderboard system without rebuilding it from scratch.
+
+- [From Manual QA to Team Quality Standard: Learning C# Automation on an Unreleased Title](projects-and-contributions/pvz3/pvz3-learning-automation-to-quality-standard.md):
+  Learned C# automation from scratch under mentorship, then built tests that
+  became a required gate in engineering's pre-merge process.
+
+### Bejeweled Blitz
+
+- [Catching a Google Play SKU Limit Issue with Charles Proxy](projects-and-contributions/bejeweled-blitz/bejeweled-blitz-google-play-sku-issue.md):
+  Used Charles Proxy to catch a hidden Google Play SKU limit breach costing
+  an estimated $10K/hour before it surfaced in player reports.
+
+### Epic Games
 
 - [AI Tool Evaluation and Adoption at Epic](projects-and-contributions/epic/ai-tools-adoption.md):
   Benchmarked Claude, ChatGPT, Gemini, and Copilot against real QA tasks,
@@ -36,28 +62,36 @@ roles where QA instincts and production work live in the same person.
   Moved test cases out of a siloed tool and into the repo so engineers could
   see QA coverage directly, without new licensing or training.
 
-- [Star Wars: Hunters, Playtesting and Player Advocacy](projects-and-contributions/star-wars-hunters/star-wars-hunters-playtesting.md):
-  Ran structured playtests and sourced player feedback from Discord
-  independently. The UX and performance improvements I pushed for made it into
-  the worldwide launch.
-
 - [EGS Offline Flow Investigation](projects-and-contributions/egs/offline-flow-investigation.md):
   Built a service priority matrix and phased gap analysis covering 14+
   external services after investigating how the Epic Games Store handled
   outages across the desktop launcher and web store.
+
+### Star Wars: Hunters
+
+- [Playtesting and Player Advocacy](projects-and-contributions/star-wars-hunters/star-wars-hunters-playtesting.md):
+  Ran structured playtests and sourced player feedback from Discord
+  independently. The UX and performance improvements I pushed for made it
+  into the worldwide launch.
+
+### Forza Motorsport (2023)
+
+- [Track Visual Verification](projects-and-contributions/forza/forza-track-visual-verification.md):
+  Maintained and ran an automated tool that replaced manual, by-hand track
+  verification across weather conditions, and extended it to additional
+  tracks.
+
+### Peek Pro 7
+
+- [Client Issue Resolution](projects-and-contributions/peek/peek-pro-case-study.md):
+  Triaged partner-reported issues by severity across varied POS and
+  reservation configurations, and validated new features against real
+  client setups before release.
+
+### Production Leadership
 
 - [Standing Up Production Process for a Volunteer Indie Team](projects-and-contributions/production-leadership/task-hierarchy-and-tooling.md):
   Designed task hierarchy and workflow conventions for The Decree, an
   indie JRPG in preproduction that has grown from 5 to 14 people. The
   onboarding documentation I wrote is now the standard for all new
   contributors.
-
-- [Forza Motorsport (2023), Track Visual Verification](projects-and-contributions/forza/forza-track-visual-verification.md):
-  Maintained and ran an automated tool that replaced manual, by-hand track
-  verification across weather conditions, and extended it to additional
-  tracks.
-
-- [Peek Pro 7, Client Issue Resolution](projects-and-contributions/peek/peek-pro-case-study.md):
-  Triaged partner-reported issues by severity across varied POS and
-  reservation configurations, and validated new features against real
-  client setups before release.
