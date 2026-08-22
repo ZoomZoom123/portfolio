@@ -15,11 +15,11 @@ I built a Postman-based automation script originally intended for straightforwar
 
 Specifically, the bot data was used to:
 
-- **Stress-test tournament state transitions** — validating promotion and relegation logic held up correctly across tier boundaries under high volume and unusual sequences of match results.
-- **Probe for client-side manipulation vectors** — attempting to influence rankings, scores, or rewards in ways that should only have been possible if server authority had a gap.
-- **Surface bad-actor/cheating patterns** — simulating behaviors consistent with known cheating strategies (score manipulation, rapid-fire match submission, out-of-order state changes) to confirm detection and rejection logic caught them.
-- **Validate reward distribution integrity** — confirming rewards were only issued based on server-verified outcomes, never client-reported ones.
-- **Check for downstream security issues** — looking for cases where a compromised or modified client could cause unintended server-side effects.
+- **Stress-test tournament state transitions:** validating promotion and relegation logic held up correctly across tier boundaries under high volume and unusual sequences of match results.
+- **Probe for client-side manipulation vectors:** attempting to influence rankings, scores, or rewards in ways that should only have been possible if server authority had a gap.
+- **Surface bad-actor/cheating patterns:** simulating behaviors consistent with known cheating strategies (score manipulation, rapid-fire match submission, out-of-order state changes) to confirm detection and rejection logic caught them.
+- **Validate reward distribution integrity:** confirming rewards were only issued based on server-verified outcomes, never client-reported ones.
+- **Check for downstream security issues:** looking for cases where a compromised or modified client could cause unintended server-side effects.
 
 ## Outcome
 

@@ -14,7 +14,7 @@ and set the workflow conventions the full team now runs on.
 I also built the recruitment pipeline from scratch: candidate tracking, NDA
 and contributor agreement workflows, interview process standards. Wrote the
 onboarding documentation too. It covers how the team works, where things
-live, and what's expected -- new contributors are still being onboarded
+live, and what's expected. New contributors are still being onboarded
 against it.
 
 The studio is in pre-production, working toward a playable demo.
